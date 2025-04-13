@@ -154,7 +154,22 @@ const videos = [
       subscribers: "88M subscribers",
       views: "12M views",
       posted: "5 years ago"
+    },
+    { //teste
+      title: "test",
+      videoUrl: "#",
+      thumbnail: "img/thumbnails/thumbnail-1.webp",
+      time: "17:14",
+      author: "S1lb",
+      channelUrl: "#",
+      profilePicture: "img/channel-pictures/channel-5.jpeg",
+      tooltipName: "S1lb",
+      subscribers: "8B subscribers",
+      views: "172M views",
+      posted: "2 seconds ago"
     }
+
+  
   ];
   
   
