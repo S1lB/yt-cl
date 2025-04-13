@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img src="img/icons/hamburger-menu.svg" class="hamburger-menu" alt="Menu">
+            <img src="img/icons/youtube-logo.svg" class="youtube-logo" alt="YouTube Logo">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search" aria-label="Search">
+            <button class="search-button" aria-label="Search">
+                <img src="img/icons/search.svg" alt="Search Icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button" aria-label="Search with your voice">
+                <img src="img/icons/voice-search-icon.svg" alt="Voice Search Icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img src="img/icons/upload.svg" class="upload-icon" alt="Upload Icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-icon-container">
+                <img src="img/icons/youtube-apps.svg" class="youtube-apps-icon" alt="YouTube Apps Icon">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img src="img/icons/notifications.svg" class="notifications-icon" alt="Notifications Icon">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img src="img/channel-pictures/my-channel.jpeg" class="current-user-picture" alt="User Picture">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="img/icons/home.svg" alt="Home">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="img/icons/explore.svg" alt="Explore">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="img/icons/subscriptions.svg" alt="Subscriptions">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="img/icons/originals.svg" alt="Originals">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="img/icons/youtube-music.svg" alt="YouTube Music">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="img/icons/library.svg" alt="Library">
+            <div>Library</div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="video-grid">
+            <!-- Os videos serão carregados aqui -->
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
