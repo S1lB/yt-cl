@@ -162,7 +162,7 @@ const videos = [
       time: "17:14",
       author: "S1lb",
       channelUrl: "#",
-      profilePicture: "img/channel-pictures/channel-5.jpeg",
+      profilePicture: "img/channel-pictures/github.png",
       tooltipName: "S1lb",
       subscribers: "8B subscribers",
       views: "172M views",
